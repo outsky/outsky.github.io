@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="blog">
+  <section class="widget posts">
+  <h1 class="page-heading">代码</h1>
+  <ul class="post-list">
+    {% for post in site.categories.code %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  </section>
+
+  <section class="widget posts">
+  <h1 class="page-heading">系统</h1>
+  <ul class="post-list">
+    {% for post in site.categories.os %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  </section>
+
+  <section class="widget posts">
+  <h1 class="page-heading">生活</h1>
+  <ul class="post-list">
+    {% for post in site.categories.life %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  </section>
+
+</div>
