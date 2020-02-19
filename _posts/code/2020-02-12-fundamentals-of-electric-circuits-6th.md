@@ -10,6 +10,12 @@ tags: reading, hardware, electric
 
 
 
+> **Fundamentals of Electric Circuits (Sixth Edition)**
+>
+> *Charies K. Alexander | Matthew N.O. Sadiku*
+
+
+
 ## 第 1 章	基本概念
 
 1. 电气工程两大基础理论：1）电路；2）电磁
