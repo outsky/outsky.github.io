@@ -4,7 +4,6 @@ title:  《电路基础（第六版）》读书笔记
 date:   2020-02-12 00:25:00 +0800
 categories: code
 tags: reading, hardware, electric
-typora-root-url: ..\..\res\img
 ---
 
 
@@ -136,7 +135,7 @@ typora-root-url: ..\..\res\img
 
 9. **反相放大器**：在对输入信号进行放大的同时也将其极性进行了翻转
 
-   ![](/reg/img/20200212/1.png)
+   ![1](/reg/img/20200212/1.png)
 
    ![11](/reg/img/20200212/11.png)
 
@@ -158,7 +157,7 @@ typora-root-url: ..\..\res\img
 
 12. **差分放大器**（减法器）：只对两输入信号差值进行放大而抑制共模信号
 
-    <img src="/reg/img/20200212/5.png" alt="5"  />
+    ![5](/reg/img/20200212/5.png)
 
     ![55](/reg/img/20200212/55.png)
 
